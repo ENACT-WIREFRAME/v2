@@ -2,3 +2,4 @@
 
 Changes made:
 - Widened Welcome container 
+- pretty consent checkboxes
