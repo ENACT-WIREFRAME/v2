@@ -28,7 +28,7 @@
     margin-right: .375rem;
 }
 .page .navbar-brand{
-    padding-left:0
+    background: #f8f9fa;    
 }
 .sidebar .nav-link{
     color: #0056b3
