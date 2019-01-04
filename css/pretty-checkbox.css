@@ -4,7 +4,7 @@ http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
 @charset "UTF-8";
 .abc-checkbox {
   cursor: default;
-  padding: 10px; }
+  padding: 10px 10px 10px 35px; }
   .abc-checkbox label {
     cursor: pointer;
     display: inline;
