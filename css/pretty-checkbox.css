@@ -21,7 +21,7 @@ http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
       width: 25px;
       height: 25px;
       top: 2px;
-      left: 0;
+      left: -15px;
       margin-left: -1.25rem;
       border: 1px solid #ced4da;
       border-radius: 3px;
@@ -33,7 +33,7 @@ http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
       position: absolute;
       width: 25px;
       height: 25px;
-      left: 0;
+      left: -15px;
       top: -1px;
       margin-left: -1.25rem;
       padding-left: 3px;
@@ -42,7 +42,7 @@ http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
       color: #495057; }
   .abc-checkbox input[type="checkbox"],
   .abc-checkbox input[type="radio"] {
-    position: static;
+    /*position: static;*/
     margin-left: 0;
     cursor: pointer;
     opacity: 0;
