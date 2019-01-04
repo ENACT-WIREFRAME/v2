@@ -10,6 +10,10 @@
 
 /* ---- NAV STYLES ---- */
 .navbar-brand, .sidebar-sticky{
+    background: #f8f9fa;
+    color: white;
+}
+.page .sidebar-sticky{
     background: #343a40;
     color: white;
 }
