@@ -1,7 +1,21 @@
 ---
 layout: page
 ---
-<div class="row">
+
+<nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
+		<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
+		<span id="audit-name" class="col-lg-10">Thank you for your consent!</span>
+		<ul class="navbar-nav px-3">
+			<li class="nav-item text-nowrap">
+				{% include progress-bar.html %}
+			</li>
+		</ul>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			{% include sidebar-sticky.html %}
+			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+				<div class="row">
 <div class="col-md-6">
   <form action="{{ site.baseurl }}/audit-report" class="select-audit">
     <fieldset>
@@ -217,3 +231,10 @@ layout: page
 <script>
   document.getElementsByClassName("progress-bar")[0].setAttribute("style", "width:40%");
 </script>
+			</main>
+		</div><!-- END ROW-->
+	</div><!-- END CONTAINER_FLUID-->
+
+
+
+
