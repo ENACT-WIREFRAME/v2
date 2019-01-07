@@ -4,7 +4,7 @@ layout: page
 
 <nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
 		<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
-		<span id="message" class="alert alert-success">Thank you for your consent!</span>
+		<span id="message" class="alert">Thank you for your consent!</span>
 		<ul class="navbar-nav px-3">
 			<li class="nav-item text-nowrap">
 				{% include progress-bar.html %}
@@ -230,7 +230,7 @@ layout: page
     </div>-->
 <script>
   document.getElementsByClassName("progress-bar")[0].setAttribute("style", "width:40%");
-	$("#message.alert").addClass("alert-success");
+	$("#message").addClass("load");
 </script>
 			</main>
 		</div><!-- END ROW-->
