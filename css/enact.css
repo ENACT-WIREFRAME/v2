@@ -443,7 +443,7 @@ border-radius: 34px;
 border-radius: 50%;
 }
 #message {
-  background: rgba(212,237,218,0);
+  background: rgba(212,237,218,1);
   width:100px; height:100px;
 
   -webkit-transition: background .5s ease-out;
@@ -452,6 +452,6 @@ border-radius: 50%;
   transition: background .5s ease-out;
 }
 #message.load {
-    background: rgba(212,237,218,1);
+    background: rgba(212,237,218,0);
 }
 
