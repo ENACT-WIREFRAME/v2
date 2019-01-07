@@ -39,7 +39,7 @@ http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
       font-size: 11px;
       color: #495057; }
 .abc-checkbox:hover label::before {
-  border: 1px solid #B8C9DA;
+  border: 1px solid #989DA3;
 }
   .abc-checkbox input[type="checkbox"],
   .abc-checkbox input[type="radio"] {
