@@ -4,7 +4,7 @@ layout: page
 
 <nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
 		<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
-		<span id="audit-name" class="col-lg-10">Thank you for your consent!</span>
+		<span id="message" class="alert alert-success fade-out-bg">Thank you for your consent!</span>
 		<ul class="navbar-nav px-3">
 			<li class="nav-item text-nowrap">
 				{% include progress-bar.html %}
@@ -230,6 +230,7 @@ layout: page
     </div>-->
 <script>
   document.getElementsByClassName("progress-bar")[0].setAttribute("style", "width:40%");
+	$("#message .alert-success").addClass("fade-out-bg");
 </script>
 			</main>
 		</div><!-- END ROW-->
