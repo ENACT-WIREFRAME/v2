@@ -488,11 +488,25 @@ border-radius: 50%;
     padding: 0;
     margin: 0 1rem;
     color: #bbc1c7;
+    float: left;
+    list-style-type: none;
 }
 .wizard-steps ul li.active {
     color: #00ae5b;
     background: none;
     padding: 0;
+}
+.wizard-steps ul li:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: static;
+    margin: 0 auto 4px auto;
+    z-index: 1;
+    border: 2px solid #D1D4D6;
+    background: #fff;
+    border-radius: 50%;
 }
 .wizard-steps ul li.active:before {
     border-color: #00ae5b;
