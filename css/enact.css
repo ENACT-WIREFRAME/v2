@@ -457,4 +457,46 @@ border-radius: 50%;
 #message.alert-success-fade.load {
     background: rgba(212,237,218,0);
 }
-
+/* WIZARD STEPS */
+.wizard-steps {
+    border: 0;
+    background: none;
+    float: right;
+    position: relative;
+    font-weight: normal;
+    top: -84px;
+    margin: 0 0 -84px;
+    font-size: .875rem;
+}
+.wizard-steps:before {
+    content: '';
+    width: 70%;
+    left: 15%;
+    height: 1px;
+    background: #D1D4D6;
+    position: absolute;
+    top: 10px;
+}
+.wizard-steps ul {
+    float: right;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.wizard-steps ul li {
+    display: inline-block;
+    border: 0 !important;
+    position: relative;
+    padding: 0;
+    margin: 0 1rem;
+    color: #bbc1c7;
+}
+.wizard-steps ul li.active {
+    color: #00ae5b;
+    background: none;
+    padding: 0;
+}
+.wizard-steps ul li.active:before {
+    border-color: #00ae5b;
+    background: #00ae5b;
+}
