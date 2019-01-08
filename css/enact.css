@@ -464,8 +464,6 @@ border-radius: 50%;
     float: right;
     position: relative;
     font-weight: normal;
-    top: -84px;
-    margin: 0 0 -84px;
     font-size: .875rem;
 }
 .wizard-steps:before {
