@@ -5,6 +5,13 @@ layout: page
 <nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
 		<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
 		<span id="message" class="alert alert-success-fade">Thank you for your consent!</span>
+		<div class="wizard-steps">
+			<ul>
+				<li class="active">1. Select audit</li>
+				<li class="">2. Review Report</li>
+				<li class="">3. Complete survey</li> 
+			</ul>
+		</div>
 		<ul class="navbar-nav px-3">
 			<li class="nav-item text-nowrap">
 				{% include progress-bar.html %}
