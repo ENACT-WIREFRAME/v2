@@ -9,6 +9,9 @@ Changes made:
 - fade-out on alert message
 - added new wizrd structure and styling
 - Removed back to top anchor on sidebars
+- Added logos to homepage
+- Removed background audit info from select audit page
+- added badges to select-audit dd labels
 
 To do:
 - add some icons
