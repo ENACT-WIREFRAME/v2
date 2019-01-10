@@ -468,8 +468,8 @@ border-radius: 50%;
 }
 .wizard-steps:before {
     content: '';
-    width: 70%;
-    left: 15%;
+    width: 60%;
+    left: 22%;
     height: 1px;
     background: #D1D4D6;
     position: absolute;
