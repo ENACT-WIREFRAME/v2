@@ -565,7 +565,7 @@ border-radius: 50%;
     border-left: 13px solid #007bff;
     border-bottom: 13px solid transparent;
 }
-.section h2[id]::before {
+.report h2[id]::before {
     display: block;
     height: 6rem;
     margin-top: -6rem;
