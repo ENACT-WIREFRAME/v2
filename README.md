@@ -3,6 +3,7 @@
 kick  it
 
 Changes made:
+- Changed tabs in mod bloc d to vertical
 - Widened Welcome container 
 - made page frame/structure consistent across all pages
 - pretty consent checkboxes
