@@ -572,3 +572,6 @@ border-radius: 50%;
     visibility: hidden;
     content: "";
 }
+#block-c .fas {
+  color: var(--green);
+}
