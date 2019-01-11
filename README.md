@@ -3,6 +3,7 @@
 kick  it
 
 Changes made:
+- Added icons to anchor tags on report
 - Added arrow to tabs
 - Changed tabs in mod bloc d to vertical
 - Widened Welcome container 
