@@ -114,22 +114,25 @@ layout: report
 			      </div>
 			</div><!--end block c-->
 			<div id="block-d" title="mod-12" class="section">
+				<h2>Patient experience </h2>
 			      <div class="toggle-mod" style="display:block">
-				    <ul class="nav nav-tabs" id="myTab" role="tablist">
-				      <li class="nav-item">
-					<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Evidence</a>
-				      </li>
-				      <li class="nav-item">
-					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Patients</a>
-				      </li>
-				      <li class="nav-item">
-					<a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Therapies</a>
-				      </li>
-				    </ul>
-				    <div class="tab-content">
-					  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+				      <div class="col-md-3">
+					      	<ul class="nav nav-tabs flex-column" id="myTab" role="tablist" aria-orientation="vertical">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#evidence" role="tab" aria-controls="evidence" aria-selected="true">What is the evidence base for HbA1c target levels?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="therapies-tab" data-toggle="tab" href="#therapies" role="tab" aria-controls="therapies" aria-selected="false">What are the options if single drug therapy if the HbA1c level is 58mmol/mol or above?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="patients-tab" data-toggle="tab" href="#patients" role="tab" aria-controls="patients" aria-selected="false">Which of our patients with type 2 diabetes have an HbA1c level of 58mmol/mol or above?</a>
+							</li>
+						</ul>
+				      </div>
+				    <div class="tab-content col-md-9">
+					  <div class="tab-pane active" id="evidence" role="tabpanel" aria-labelledby="evidence-tab">
 						<div class="col-lg-12">
-						    <h4>What is the evidence base for HbA1c target levels?</h4>
+						    <h4></h4>
 						</div>
 						<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
 						  <ul>
@@ -139,9 +142,9 @@ layout: report
 						</div>
 						<a href="#section-iconbox-1" title="" data-toggle="tooltip" data-placement="top" target="_blank" class="btn btn-success m-l-20 hidden-xs hidden-sm waves-effect waves-light pull-right" data-original-title="Needs to link to patient list">View at risk patients</a>
 					  </div>
-					  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					  <div class="tab-pane" id="patients" role="tabpanel" aria-labelledby="patients-tab">
 					      <div class="col-sm-12">
-						  <h4>Which of our patients with type 2 diabetes have an HbA1c level of 58mmol/mol or above?</h4>
+						  <h4></h4>
 					      </div>
 						<div class="table-responsive manage-table">
 						    <table class="table">
@@ -307,8 +310,8 @@ layout: report
 						    </div><!--end modal-->
 						</div><!--end table-responsive-->
 					  </div><!--end patient tab-pane-->
-					  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-						<h4>What are the options if single drug therapy if the HbA1c level is 58mmol/mol or above?</h4>
+					  <div class="tab-pane" id="therapies" role="tabpanel" aria-labelledby="therapies-tab">
+						<h4></h4>
 						      <div class="table-responsive manage-table">
 							  <table class="table">
 							      <thead>
