@@ -28,27 +28,27 @@ layout: report
 						  <i class="far fa-arrow-alt-circle-up"></i>Back to top 
 						</a>
 					</li>-->
-					<li class="nav-item">
+					<li class="nav-item" id="blocka-link">
 						<a class="nav-link" href="#block-a">
 						  <i class="fas fa-chart-bar mr-2"></i>Results
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" id="blockc-link">
 						<a class="nav-link" href="#block-c">
 						  <i class="fas fa-check mr-2"></i>Recommendations for action 
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" id="blockd-link">
 						<a class="nav-link" href="#block-d">
 						  <i class="fas fa-search mr-2"></i>Patient experience 
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" id="blocke-link">
 						<a class="nav-link" href="#block-e">
 						  <i class="far fa-star mr-2"></i>Participation and benchmarking 
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" id="blockf-link">
 						<a class="nav-link" href="#block-f">
 						  <i class="far fa-comment-alt mr-2"></i>A patient account 
 						</a>
@@ -70,7 +70,7 @@ layout: report
 				      <p class="mb-0"><strong>Audit Standard: </strong>Adults with type 2 diabetes whose HbA1c level is 58mmol/mol 7.5% or above after 6 months with single-drug treatment are offered dual therapy.</p>
 			      </blockquote>
 			</div><!--audit standard--->
-			<h2>Results</h2>
+			<h2 id="blocka-header">Results</h2>
 			      <p>Your practice achieved this standard of care for <strong>86% (318/370) of patients</strong>.</p>
 			<div id="block-a" title="mod-7">
 			      <p class="toggle-mod" style="display:block">The top 25% of practices achieved this for <strong>93.7% or better</strong> of patients.</p>
@@ -86,8 +86,8 @@ layout: report
 			      </div>
 			</div><!--end block b-->
 			<div id="block-c" title="mod-3" class="section">
-			      <div class="toggle-mod" style="display:block">
-				    <h2>Recommendations for action</h2>
+			      <div class="toggle-mod">
+				    <h2 id="blockc-header">Recommendations for action</h2>
 				    <ul class="list-group">
 					  <li class="list-group-item">
 						<i class="fas fa-check-circle mr-1"></i>Identify adult patients with type 2 diabetes whose HbA1c level is 58mmol/mol or above.
@@ -108,7 +108,7 @@ layout: report
 			      </div>
 			</div><!--end block c-->
 			<div id="block-d" title="mod-12" class="section">
-				<h2>Patient experience </h2>
+				<h2 id="blockd-header">Patient experience </h2>
 			      <div class="row">
 				      <div class="col-md-4">
 					      	<ul class="nav nav-pills flex-column" id="myTab" role="tablist" aria-orientation="vertical">
@@ -360,11 +360,11 @@ layout: report
 					  </div>
 				    </div>				      
 				      </div>
-			      <script>
+			      <!-- PROBABLY NOT REQUIRED... TO REMOVE<script>
 				$(function () {
-				  $('#myTab li:last-child a').tab('show')
+				  $('#myTab li:first-child a').tab('show')
 				})
-			      </script>
+			      </script>-->
 			</div><!--end block d-->
 			<div id="block-f" title="mod-10" class="">
 			      <div class="toggle-mod" style="display:none">
@@ -372,6 +372,7 @@ layout: report
 			      </div>
 			      <div class="toggle-mod">
 				     <div class="row">
+					  <h2 id="blockf-header">Participation & benchmarking</h2>
 					  <div class="col-sm-12 col-md-6 col-lg-6">
 					    <div class="white-box tag">
 						<div class="row row-in">
@@ -411,8 +412,8 @@ layout: report
 
 			</div><!--end block f-->
 			<div id="block-e" title="mod-16" class="patient-story section">
-			      <div class="toggle-mod" style="display:block">
-				    <h2>Patient story</h2>
+			      <div class="toggle-mod">
+				    <h2 id="blocke-header">Patient story</h2>
 				    <div class="media">
 				      <img src="/images/patient.png" alt="patient photo" class="img-circle img-responsive align-self-start mr-3" style="width:32px; height:32px">
 				      <div class="media-body">
