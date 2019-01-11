@@ -14,6 +14,7 @@ Changes made:
 - Added logos to homepage
 - Removed background audit info from select audit page
 - added badges to select-audit dd labels
+- added hidden block to force headings to show below fixed navbar
 
 To do:
 - add some icons
