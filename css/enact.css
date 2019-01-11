@@ -515,3 +515,33 @@ border-radius: 50%;
 .audit-logos img{
     margin: 0 10px
 }
+.fa-layers {
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: -0.125em;
+    width: 1em;
+}
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+.fw6 {
+    font-weight: 600;
+}
+.primary4 {
+    color: #4dabf7;
+}
+.ml1 {
+    margin-left: .25rem;
+}
+.mr3 {
+    margin-right: 1rem;
+}
+.mt1 {
+    margin-top: .25rem;
+}
+.f5 {
+    font-size: 1.5625rem;
+}
