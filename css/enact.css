@@ -20,12 +20,13 @@
 .navbar-brand, .sidebar-sticky{
     box-shadow: none;
 }
-.navbar-brand svg {
-    color: #0cc2aa;
-    height: 24px;
-    width: 24px;
-    margin-left: -.15rem;
-    margin-right: .375rem;
+.navbar-brand img {
+    margin-top: -5px;
+}
+.navbar-brand span {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 5px 5px;
 }
 .page .navbar-brand{
     background: #f8f9fa; 
