@@ -33,7 +33,10 @@
     color: #343a40
 }
 .sidebar .nav-link{
-    color: #0056b3
+    color: #999
+}
+.sidebar .nav-link:hover{
+    color: #fff
 }
 .text-danger {
     color: #ff7676;
