@@ -549,14 +549,14 @@ border-radius: 50%;
 .f5 {
     font-size: 1.5625rem;
 }
-.nav-pills .nav-link.active::after{
+.nav-pills .nav-link.active::after {
     content: "";
     position: absolute;
-    right: 100%;
-    top: 26px;
+    right: 0%;
+    top: 145px;
     width: 0;
     height: 0;
-    border-top: 13px solid transparent;
-    border-right: 26px solid inherit;
-    border-bottom: 13px solid transparent;
+    border-top: 25px solid transparent;
+    border-left: 26px solid #007bff;
+    border-bottom: 25px solid transparent;
 }
